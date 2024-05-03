@@ -1,0 +1,59 @@
+git DOWNLOAD
+
+
+
+GITBASH 
+
+git config -- user.name "ARCOKICIO"
+
+git config --list LISTA CONFIGURAÇÕES 
+
+git config -- user.name "marujodrum@gmail.com"
+
+git config -- user.password "SENHA"
+
+
+CMD 
+
+  Criar repositórios - LINK  REPOSITÓRIO GITHUB (https://github.com/arcokicio/TDS_FRONT_2024.git)
+
+git init
+git add README.md
+
+git add NOME DO ARQUIVO (* ADICIONA TUDO)
+git commit -m "Descricao"   (COMITA)
+git branch -m main    (SAVE)
+git clone https://github.com/arcokicio/TDS_FRONT_2024.git  
+cd TDS_FRONT_2024
+git status (COMPARA ARQUIVOS DO PC COM ARQUIVOS DO GITHUB)
+
+
+
+
+git push origin main
+
+git remote add origin https://github.com/arcokicio/TDS_FRONT_2024.git    
+git push -u origin main
+
+CLS (Limpar terminal)
+
+
+GIT HUB 
+
+Readme - Descrição do projeto mais longa
+
+gitignore - Arquivo dentro do projeto que ignora outros arquivos
+
+Issues - Atividade para cumprir dentro dos projetos
+
+Pull request - Solicitação de aprovação para COMMIT 
+
+Actions - Integrações  
+
+Projetos - 
+
+Wikipédia - Currículo
+
+Segurança Dependbot - Analista de vulnerabilidade 
+
+
