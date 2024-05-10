@@ -4,13 +4,13 @@ git DOWNLOAD
 
 GITBASH 
 
-git config -- user.name "ARCOKICIO"
+git config --global user.name "ARCOKICIO"
 
 git config --list LISTA CONFIGURAÇÕES 
 
-git config -- user.name "marujodrum@gmail.com"
+git config --global user.name "marujodrum@gmail.com"
 
-git config -- user.password "SENHA"
+git config --global user.password "SENHA"
 
 
 CMD 
