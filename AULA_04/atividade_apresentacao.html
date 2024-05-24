@@ -1,115 +1,125 @@
 
 
+<!--É uma "informação" para o navegador sobre que tipo de documento esperar.-->
 <!DOCTYPE html>
+
+<!--Atribui idioma-->
 <html lang="pt-br">
 
+<!--Head um Cointeiner de metadados CABEÇALHO-->
 <head>
+<!--As tags <meta> sempre ficam dentro do elemento <head> e normalmente são usadas para especificar conjunto de caracteres-->
     <meta charset="UTF-8">
 </head>
 
 
+<!--Body é um Cointeiner de metadados CORPO-->
 <body>
+    <!--Tag de texto tamanho 01-->
     <h1>
-        <center>The Real Slim Shady
+        <center>The Real Slim Shady</center>
     </h1>
-    </center>
     
-    <center>
-        <img src="bodystyle01.jpg", height="222px"
-    </center>
+
+    <center> <img src="bodystyle01.jpg" , height="222px" </center>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem"></textarea><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+        <u>
+            <h2>
+                Deixe aqui sua mensagem para TheRealSlimShady, talvez ele retorne.
+        </u></h2>
         
-    <section id="contato">
-        <h2>Contato</h2>
-        <form>
-            <label for="nome">Nome:</label><br>
-            <input type="text" id="nome" name="nome"><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br>
-            <label for="mensagem">Mensagem:</label><br>
-            <textarea id="mensagem" name="mensagem"></textarea><br>
-            <input type="submit" value="Enviar">
-        </form>
-    </section>
+        
+        
+        
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Servicos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        
+        </nav>
 
-    <u><h2>
-        Deixe aqui sua mensagem para TheRealSlimShady, talvez ele retorne.
-    </u></h2>
-    <nav>
-        <ul>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#servicos">Servicos</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-    </nav>
+        <section id="sobre">
+            <h2>Sobre Nos</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis tincidunt erat, nec finibus
+                massa
+                vestibulum eu. Nam nec tortor suscipit, faucibus purus at, vestibulum tortor.</p>
+        </section>
 
-    <section id="sobre">
-        <h2>Sobre Nos</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis tincidunt erat, nec finibus massa
-            vestibulum eu. Nam nec tortor suscipit, faucibus purus at, vestibulum tortor.</p>
-    </section>
+        <section id="servicos">
+            <h2>Nossos Servicos</h2>
+            <ul>
+                </a>
+                <li>Servicos 1</li></a>
+                </a>Servicos 2</li></a>
+                <a>Servicos 3</li></a>
+            </ul>
+        </section>
+        <footer>
+            <p>&copy; 2024 Meu Trabalho HTML</p>
+        </footer>
 
-    <section id="servicos">
-        <h2>Nossos Servicos</h2>
-        <ul>
-            <li>Servicos 1</li>
-            <li>Servicos 2</li>
-            <li>Servicos 3</li>
-        </ul>
-    </section>
+        <style>
+            /* Estilos CSS podem ser adicionados aqui */
+            body {
 
-
-
-    <footer>
-        <p>&copy; 2024 Meu Trabalho HTML</p>
-    </footer>
-
-     <style>
-        /* Estilos CSS podem ser adicionados aqui */
-        body {
-
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: violet;
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: violet;
 
 
-        }
+            }
 
-        u {
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
-            margin: 200;
-            padding: 220;
-            background-color: violet;
-        }
+            u {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+                margin: 200;
+                padding: 220;
+                background-color: violet;
+            }
 
-        header {
-            background-color: #08ec08d0;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
+            header {
+                background-color: #08ec08d0;
+                color: #fff;
+                padding: 20px;
+                text-align: center;
+            }
 
-        nav {
+            nav {
 
-            background-color: #08ec08d0;
-            color: #fff;
-            padding: 60px;
-            text-align: left;
-        }
+                background-color: #08ec08d0;
+                color: #fff;
+                padding: 60px;
+                text-align: left;
+            }
 
-        section {
-            padding: 20px;
-            margin: 20px;
-            background-color: #ffffff;
-        }
+            section {
+                padding: 20px;
+                margin: 20px;
+                background-color: #ffffff;
+            }
 
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-    </style>
+            footer {
+                background-color: #333;
+                color: #fff;
+                padding: 20px;
+                text-align: center;
+            }
+        </style>
 
 
 
