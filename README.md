@@ -1,11 +1,11 @@
 
 GITBASH 
 
-git config --global user.name "ARCOKICIO"
+git config --global user.name ""
 
-git config --global user.email"marujodrum@gmail.com"
+git config --global user.email""
 
-git config --global user.password "SENHA"
+git config --global user.password ""
 
 git config --global list LISTA CONFIGURAÇÕES 
 
