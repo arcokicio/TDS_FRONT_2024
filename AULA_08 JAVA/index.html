@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+</head>
+
+<body>
+    <p> AULA JAVA </p>
+<script>
+    var nome = "Guilherme";
+    var calculo = 1 + 2;
+    var lista = [1,2,3,4,5];
+    var matriz = [2][3];
+
+// Definindo o objetos
+var thiago = {
+    nome: "thiago",
+    idade: 29,
+    email: "thiago@gmail.com"
+};
+var joao = {
+    nome: "joao",
+    idade: 29,
+    email: "joao@gmail.com"
+};
+var pedro = {
+    nome: "pedro",
+    idade: 19,
+    email: "joao@gmail.com"
+};
+
+var pessoa = [thiago, joao, pedro];
+console.log(pessoa[cont]);
+
+for (var cont = 0; cont < pessoa.length; cont++) {
+console.log(cont);
+}
+
+// codigo thiago
+// crase simples concatena 
+// let i = 0; inicializa a variável de controle i com zero
+// i < pessoa.length; define a condição de continuação do loop, 
+// que é verdadeira enquanto i for menor que o número de elementos no array pessoa.
+// i++ é o operador de incremento que aumenta o valor de i em 1 a cada iteração.
+for (let i = 0; i < pessoa.length; i++) {
+
+// Opção ${i + 1}: mostra o número da opção atual (começando de 1, por isso i + 1). 
+// ${pessoa[i].nome} acessa a propriedade nome do objeto na posição i do array pessoa e a imprime.  
+console.log(`Opção ${i + 1}: ${pessoa[i].nome}`);
+}
+
+// Definição da função mostrarNomeEscolhido com um parâmetro 'opcao'
+function mostrarNomeEscolhido(opcao) {
+// Verifica se a opcao está dentro do intervalo
+    if (opcao >= 1 && opcao <= pessoa.length) {
+        console.log(`Opção escolhida: ${opcao}, Nome: ${pessoa[opcao - 1].nome}`);
+    } else {
+        console.log('Opção inválida.');
+    }
+}  
+    console.log('valor', nome, 'tipo:',typeof nome);
+    console.log('valor', calculo, 'tipo:',typeof calculo);
+    console.log(lista);
+    console.log(typeof matriz);
+    console.log(pessoa);
+    console.log(pessoa.nome);
+
+
+    
+
+</script>
+</body>
+
+</html>
