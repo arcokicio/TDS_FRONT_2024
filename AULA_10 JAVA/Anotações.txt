@@ -1,0 +1,3 @@
+JAVA
+
+forEach() é um método de array que itera sobre cada elemento do array, executando uma função callback para cada um.
