@@ -1,28 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Inicio do documento HTML, especificando que o conteudo esta em ingles -->
 
 <head>
     <meta charset="UTF-8">
+    <!-- Define o conjunto de caracteres como UTF-8 para suportar uma ampla gama de caracteres -->
     <link rel="stylesheet" href="./style.css">
+    <!-- Inclui um arquivo CSS externo para estilizar a pagina -->
     <title>calculadora</title>
+    <!-- Define o titulo da pagina que aparecera na aba do navegador -->
 </head>
 
 <body class="container">
-    <h1>The Real Slim Calculator </h1>
-    <input type="number" name="num1" id="num1">
-    <input type="number" name="num2" id="num2">
-    <select name="operation" id="operation">
-        <option value="+">Soma (+)</option>
-        <option value="-">Subtracao (-)</option>
-        <option value="*">Multiplicacao (*)</option>
-        <option value="/">Divisao (/)</option>
-    </select>
-    <button onclick="calcula()">Calcular</button>
-    <div id="result">
-        </div>
-    <ul id="ul"></ul>
-    <script src="./calculate.js"></script>
-</body>
-</body>
+    <!-- Inicio do corpo da pagina com a classe "container" para possiveis estilizacoes -->
 
+    <h1>The Real Slim Calculator </h1>
+    <!-- Titulo principal da pagina, mostrando o nome da calculadora -->
+
+    <input type="number" name="num1" id="num1">
+    <!-- Campo de entrada para o primeiro namero. O tipo "number" permite apenas valores numericos -->
+    
+    <input type="number" name="num2" id="num2">
+    <!-- Campo de entrada para o segundo numero. Tambem do tipo "number" para valores numericos -->
+
+    <select name="operation" id="operation">
+        <!-- Menu suspenso para selecionar a operacao matematica desejada -->
+        <option value="+">Soma (+)</option>
+        <!-- Opcao para soma -->
+        <option value="-">Subtracao (-)</option>
+        <!-- Opcao para subtracao -->
+        <option value="*">Multiplicacao (*)</option>
+        <!-- Opcao para multiplicacao -->
+        <option value="/">Divisao (/)</option>
+        <!-- Opcao para divisao -->
+    </select>
+
+    <button onclick="calcula()">Calcular</button>
+    <!-- Botao que, quando clicado, chama a funcao JavaScript 'calcula' para realizar a operacao -->
+
+    <div id="result">
+    <!-- Div onde o resultado da operacao sera exibido -->
+    </div>
+
+    <script src="./calculate.js"></script>
+    <!-- Inclui um arquivo JavaScript externo que contem a logica para calculos e manipulacao da pagina -->
+</body>
+<!-- Fim do corpo da pagina -->
+
+</body>
+<!-- Fim do documento HTML. Nota: o fechamento duplicado da tag <body> deve ser removido -->
 </html>
