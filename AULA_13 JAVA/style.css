@@ -1,0 +1,40 @@
+.corpo{
+text-align: center; 
+background-color: aqua;
+}
+
+.titulo{
+text-align: center;
+text-transform: uppercase;
+}
+
+.tabuleiro {
+display: flex;
+justify-content:  center;
+margin: 5px;
+}
+
+.tabuleiro span{
+justify-content: center;
+
+}
+
+.linha1{
+    
+background-color: rgb(47, 0, 255);
+height: 100px;
+width: 100px;
+margin: 5px;
+}
+.linha2{
+    background-color: rgb(19, 116, 24);
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+.linha3{
+    background-color: rgb(255, 0, 0);
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
