@@ -1,40 +1,30 @@
-.corpo{
-text-align: center; 
-background-color: aqua;
+.cabecalho {
+    text-align: center;
+    text-transform: uppercase;
 }
 
-.titulo{
-text-align: center;
-text-transform: uppercase;
+.rodape {
+    text-align: center;
 }
 
 .tabuleiro {
-display: flex;
-justify-content:  center;
-margin: 5px;
+    display: flex;
+    justify-content: center;
+    /* background-color: black; */
 }
 
-.tabuleiro span{
-justify-content: center;
-
-}
-
-.linha1{
-    
-background-color: rgb(47, 0, 255);
-height: 100px;
-width: 100px;
-margin: 5px;
-}
-.linha2{
-    background-color: rgb(19, 116, 24);
+.campo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100px;
     width: 100px;
+    background-color: blue;
     margin: 5px;
+    cursor: pointer;
 }
-.linha3{
-    background-color: rgb(255, 0, 0);
-    height: 100px;
-    width: 100px;
-    margin: 5px;
+
+.campo{
+    color: #FFFFFF;
+    font-size: 50px;
 }
