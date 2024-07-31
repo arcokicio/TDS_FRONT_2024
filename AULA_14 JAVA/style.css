@@ -1,35 +1,69 @@
+/* Explicações Detalhadas:
+.cabecalho:
+text-align: center;: Centraliza o texto dentro da seção do cabeçalho.
+text-transform: uppercase;: Transforma todo o texto em maiúsculas para um estilo uniforme e destacado.
+
+.rodape:
+text-align: center;: Centraliza o texto dentro da seção do rodapé, proporcionando uma aparência uniforme e alinhada.
+.tabuleiro:
+
+display: flex;: Define um layout flexível, permitindo que os itens dentro da linha (células do tabuleiro) se ajustem automaticamente.
+justify-content: center;: Alinha os itens horizontalmente ao centro da linha.
+background-color: black;: Linha comentada; se ativada, definiria a cor de fundo das linhas do tabuleiro como preta.
+
+.campo:
+display: flex;: Utiliza o layout flexível para posicionar o conteúdo das células (os símbolos 'X' e 'O').
+align-items: center;: Alinha o conteúdo verticalmente ao centro da célula.
+justify-content: center;: Alinha o conteúdo horizontalmente ao centro da célula.
+height: 100px;: Define a altura das células do tabuleiro.
+width: 100px;: Define a largura das células do tabuleiro.
+background-color: blue;: Define a cor de fundo das células como azul.
+margin: 5px;: Adiciona uma margem ao redor de cada célula para separar as células visualmente.
+cursor: pointer;: Altera o cursor para uma mãozinha quando o usuário passa o mouse sobre a célula, indicando que ela é clicável.
+
+.campo (repetido):
+#resultado:
+text-transform: uppercase;: Converte o texto do resultado para maiúsculas para destacar a informação.
+*/
+
+/* Estiliza a seção do cabeçalho */
 .cabecalho {
-    text-align: center;
-    text-transform: uppercase;
+    text-align: center; 
+    text-transform: uppercase; 
 }
 
+/* Estiliza a seção do rodapé */
 .rodape {
-    text-align: center;
+    text-align: center; 
 }
 
+/* Estiliza cada linha do tabuleiro do jogo */
 .tabuleiro {
-    display: flex;
-    justify-content: center;
-    /* background-color: black; */
+    display: flex; /* Usa o modelo de layout flexível para dispor os itens */
+    justify-content: center; 
+   
 }
 
+/* Estiliza cada célula do tabuleiro */
 .campo {
-    display: flex;
+    display: flex; 
     align-items: center;
-    justify-content: center;
-    height: 100px;
-    width: 100px;
-    background-color: blue;
-    margin: 5px;
-    cursor: pointer;
+    justify-content: center; 
+    height: 100px; 
+    width: 100px; 
+    background-color: blue; 
+    margin: 5px; 
+    cursor: pointer; /* Muda o cursor para uma mãozinha ao passar sobre a célula */
 }
 
-.campo{
-    color: #FFFFFF;
-    font-size: 50px;
+/* Estiliza o texto dentro das células */
+.campo {
+    color: #FFFFFF; 
+    font-size: 50px; 
 }
 
-#resultado{
-    text-transform: uppercase;
-    color: green;
+/* Estiliza o elemento que exibe o resultado do jogo */
+#resultado {
+    text-transform: uppercase; 
+    color: green; 
 }
