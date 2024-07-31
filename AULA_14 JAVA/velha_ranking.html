@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <title>👵 Jogo Da velha</title>
+</head>
+
+<body>
+    <div class="cabecalho">
+        <h1>Jogo da Velha 👵</h1>
+    </div>
+
+    <div class="corpo">
+        <div class="tabuleiro">
+            <div class="campo" onclick="marcar(0)"></div>
+            <div class="campo" onclick="marcar(1)"></div>
+            <div class="campo" onclick="marcar(2)"></div>
+        </div>
+        <div class="tabuleiro">
+            <div class="campo" onclick="marcar(3)"></div>
+            <div class="campo" onclick="marcar(4)"></div>
+            <div class="campo" onclick="marcar(5)"></div>
+        </div>
+        <div class="tabuleiro">
+            <div class="campo" onclick="marcar(6)"></div>
+            <div class="campo" onclick="marcar(7)"></div>
+            <div class="campo" onclick="marcar(8)"></div>
+        </div>
+    </div>
+
+    <div class="rodape">
+        <!-- <button>Reniciar partida</button> -->
+        <button onclick="reniciar_jogo()">Reniciar</button>
+        <h2 id="resultado"></h2>
+        <h3 id="resultado_x">X: 0</h3>
+        <h3 id="resultado_o">O: 0</h3>
+        <p> Jogo da velha desenvolvido pelo curso Técnico em Desenvolvimento de Sistemas</p>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

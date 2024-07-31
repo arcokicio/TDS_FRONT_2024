@@ -1,0 +1,35 @@
+.cabecalho {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.rodape {
+    text-align: center;
+}
+
+.tabuleiro {
+    display: flex;
+    justify-content: center;
+    /* background-color: black; */
+}
+
+.campo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.campo{
+    color: #FFFFFF;
+    font-size: 50px;
+}
+
+#resultado{
+    text-transform: uppercase;
+    color: green;
+}
