@@ -1,0 +1,53 @@
+.cabecalho {}
+
+.corpo {
+    position:absolute
+    height: 300px;
+    width: 900px;
+}
+
+.horizontais {
+    position:absolute
+    height: 300px;
+    width: 900px;
+    transform-style: preserve-3d;
+}
+.back_cel{
+    position:absolute
+    height: 300px;
+    width: 900px;
+    transform-style: preserve-3d; 
+}
+
+
+.teste.celula .back_cel{
+    transform: rotateY('180deg');
+    transition: all 0.5ms ease;
+
+}
+
+.celula {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 900px;
+    background: linear-gradient(0, #120c56, #000000);
+    backface-visibility: hidden;
+    
+}
+
+.back_cel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 900px;
+    background: linear-gradient(0, #ff0000, #ff7300);
+    backface-visibility: hidden;
+    transform: rotate(180deg);
+}
+
+
+.rodape {}
