@@ -1,0 +1,46 @@
+.cabecalho {}
+
+.corpo {
+    display: flex;
+    position: relative;
+    height: 700px;
+    width: 1340px;
+    
+}
+
+.horizontais {
+    height: 100%;
+    width: 100%;
+    margin: 1px;  
+    margin-bottom: 5px; 
+    transform-style: preserve-3d;
+    transition: transform 0.6s ease; 
+}
+
+.corpo:hover .horizontais {
+    transform: rotateY(180deg);
+}
+
+.celula {
+    
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0, #120c56, #000000);
+    backface-visibility: hidden;    
+}
+
+.back_cel {
+    position: absolute;
+    
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0, #b981d3, #551369);
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    
+}
+
+
+.rodape {}
